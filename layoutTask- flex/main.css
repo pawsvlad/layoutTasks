@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Big Shoulders";
+    src: url() format("truetype");
+}
+
+
+body{
+background-color: black;
+}
+
+svg{
+    padding-top: 40px;
+    float: left;
+    margin-left: 15px;
+}
+
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 30px;
+    clear: left;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    text-align: left;
+    margin: 20px;
+}
+
+.big-container{
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    height: 500px;
+    margin: auto;
+    width: 1000px;
+    padding: 70px 0;
+    margin-top: 50px;
+
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.child{
+    height: 400px;
+    width: 250px;
+}
+
+#sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+
+#suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#sedan, #suv, #luxury{
+    padding: 5px;
+}
+
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.sedan-button{
+color: hsl(31, 77%, 52%);
+}
+
+.sedan-button:hover{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid hsl(0, 0%, 95%);;
+}
+
+.suv-button{
+    color: hsl(184, 100%, 22%);
+    }
+    
+    .suv-button:hover{
+        cursor: pointer;
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        border: 2px solid hsl(0, 0%, 95%);;
+    }
+
+.luxury-button{
+    color: hsl(179, 100%, 13%);
+    }
+        
+    .luxury-button:hover{
+        cursor: pointer;
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        border: 2px solid hsl(0, 0%, 95%);;
+    }
